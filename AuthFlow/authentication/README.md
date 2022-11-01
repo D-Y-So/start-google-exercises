@@ -4,4 +4,4 @@ Eden Sonbolyan (EdenSonb)\
 Daria Yampolsky Sokolov (D-Y-So)\
 \
 Original repo:\
-https://github.com/omarhmdea/authentication.git \
+https://github.com/omarhmdea/authentication.git
