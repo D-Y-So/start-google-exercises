@@ -1,9 +1,9 @@
 package farm;
 
 public class WoodenStructureAdapter implements Animal {
-    WoodenHorse woodenHorse;
+    WoodenStructures woodenHorse;
 
-    public WoodenStructureAdapter(WoodenHorse woodenHorse){
+    public WoodenStructureAdapter(WoodenStructures woodenHorse){
         this.woodenHorse=woodenHorse;
     }
     @Override
