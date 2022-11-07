@@ -7,7 +7,8 @@ public class WoodenHorse implements WoodenStructures {
     }
 
     @Override
-    public void replicate() {
+    public WoodenStructures replicate() {
         System.out.println("Replicating wooden horse.");
+        return new WoodenHorse();
     }
 }

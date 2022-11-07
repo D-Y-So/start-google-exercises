@@ -1,14 +1,12 @@
 import farm.*;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
-        WoodenHorse woodenHorse = new WoodenHorse();
-        Animal woodenStructureAdapter = new WoodenStructureAdapter(woodenHorse);
+        WoodenStructures woodenHorse = new WoodenHorse();
+        Animal woodenStructureAdapter = new WoodenStructureToAnimalAdapter(woodenHorse);
         woodenStructureAdapter.move();
-        Animal newWoodenHorse = woodenStructureAdapter.mate(new WoodenStructureAdapter(woodenHorse));
+        Animal newWoodenHorse = woodenStructureAdapter.mate(new WoodenStructureToAnimalAdapter(woodenHorse));
 
 
         /*

@@ -1,9 +1,9 @@
 package farm;
 
-public class WoodenStructureAdapter implements Animal {
+public class WoodenStructureToAnimalAdapter implements Animal {
     WoodenStructures woodenHorse;
 
-    public WoodenStructureAdapter(WoodenStructures woodenHorse){
+    public WoodenStructureToAnimalAdapter(WoodenStructures woodenHorse){
         this.woodenHorse=woodenHorse;
     }
     @Override
@@ -13,8 +13,7 @@ public class WoodenStructureAdapter implements Animal {
 
     @Override
     public Animal mate(Animal partner) {
-        woodenHorse.replicate();
-        return new WoodenStructureAdapter(new WoodenHorse());
+        return new WoodenStructureToAnimalAdapter(woodenHorse.replicate());
     }
 
     @Override
