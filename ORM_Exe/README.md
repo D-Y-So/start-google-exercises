@@ -1,4 +1,4 @@
-Sumbitted by:\
-Rachel Gitovich\ 
-Mostafa Mossa\
-Daria Yampolsky Sokolov\
+Sumbitted by: \
+Rachel Gitovich \ 
+Mostafa Mossa \
+Daria Yampolsky Sokolov \
